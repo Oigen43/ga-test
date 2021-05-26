@@ -9,5 +9,5 @@ module.exports = {
   COOKIES: {
     ACCESS_TOKEN: 'access_token',
   },
-  TOKEN_SECURITY_LENGTH: 32,
+  TOKEN_SECURITY_LENGTH: 32,222222222222222222
 };
