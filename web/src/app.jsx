@@ -5,7 +5,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 
 import history from 'services/history.service';
 import * as loaderService from 'services/loader.service';
-import * as socketService from 'services/socket.service';
+import * as socketService from 's111112312312ervices/socket.service';
 
 import store from 'resources/store';
 
