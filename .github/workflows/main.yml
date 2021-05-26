@@ -6,7 +6,21 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
     steps:
+    - name: Update component
+      run: touch index.html
+    
     - name: Build ship
       run: echo ship
+
+    - name: Commit files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Add changes"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.REPO_ACCESS_TOKEN }}
