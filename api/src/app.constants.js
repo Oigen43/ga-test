@@ -10,4 +10,4 @@ module.exports = {
     ACCESS_TOKEN: 'access_token',
   },
   TOKEN_SECURITY_LENGTH: 32,
-};11111111111111111111
+};
