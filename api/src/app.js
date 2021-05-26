@@ -7,7 +7,7 @@ const Koa = require('koa');
 process.env.APP_ENV = process.env.APP_ENV || 'development';
 
 const config = require('config');
-const logger = require('logger');
+const logg123123er = require('logger');
 
 process.on('unhandledRejection', (reason, p) => {
   logger.error('Possibly Unhandled Rejection at: Promise ', p, ' reason: ', reason);
