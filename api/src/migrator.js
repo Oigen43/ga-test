@@ -6,4 +6,3 @@ const migrator = require('migrations/migrator');
 if (!config.isTest) {
   migrator.exec();
 }
- 12312312321
